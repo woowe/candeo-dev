@@ -1,0 +1,39 @@
+.svg-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.page-container {
+  height: 2100px;
+  .header-container {
+    background: #6a3b80;
+    min-height: calc(100vh - 72px);
+    padding: 36px 3.75vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+
+    app-text-reveal {
+      font-family: 'Anton', sans-serif;
+      font-size: calc(3rem + 5.5vw);
+      color: #fff;
+      text-transform: uppercase;
+
+      line-height: calc(3rem + 5.5vw);
+    }
+
+    app-text-shatter {
+      font-family: 'Anton', sans-serif;
+      font-size: calc(3rem + 5.5vw);
+      color: #fff;
+      text-transform: uppercase;
+
+      line-height: calc(5rem + 5.5vw);
+      letter-spacing: 2.0833vw;
+    }
+  }
+}

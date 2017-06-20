@@ -1,0 +1,5 @@
+<canvas #canvas
+         [attr.width]="parent_rect ? parent_rect.width + 'px' : '0px'"
+         [attr.height]="parent_rect ? parent_rect.height + 'px' : '0px'"
+         (mousemove)="mouseMove($event)">
+</canvas>

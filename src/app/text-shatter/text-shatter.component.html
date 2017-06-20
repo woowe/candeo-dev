@@ -1,0 +1,5 @@
+<div class="text-shatter-container">
+  <span #char *ngFor="let ch of _text; let i = index" [style.transform]="'translateY(-' + _scroll_positions[i].y + 'px)'">
+    {{ ch }}
+  </span>
+</div>
